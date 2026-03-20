@@ -1,0 +1,31 @@
+# ==========================================
+# Python Runtime & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+# (Crucial: Prevents uploading the massive python packages)
+venv/
+env/
+.venv/
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+# (Keeps terminal editor swap files and IDE configs out)
+*.swp
+*~
+.vscode/
+.idea/
+.DS_Store
+
+# ==========================================
+# Local Systemd (Optional)
+# ==========================================
+# If you ever generate the service file locally in the repo 
+# before copying it to ~/.config/systemd, uncomment the line below:
+# wispr-clone.service
