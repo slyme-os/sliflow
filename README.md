@@ -18,6 +18,7 @@ This daemon is built for Arch Linux running an X11 session. You will need system
 
 ```bash
 sudo pacman -S portaudio xdotool xclip pulseaudio-alsa libpulse
+```
 
 🚀 Installation
 1. Clone the repository
